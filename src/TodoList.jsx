@@ -46,7 +46,7 @@ function TodoList() {
 
 
   return (
-    <div className='container my-5 '>
+    <div className='container-1 my-5 d-flex '>
         <div className='mx-auto rounded border p-4' style={{width:"600px", backgroundColor:"#08618d"}}>
             <h2 className='text-white text-center mb-5'>My Todo List</h2>
        
