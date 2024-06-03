@@ -46,11 +46,11 @@ function TodoList() {
 
 
   return (
-    <div className='container my-5'>
+    <div className='container my-5 '>
         <div className='mx-auto rounded border p-4' style={{width:"600px", backgroundColor:"#08618d"}}>
             <h2 className='text-white text-center mb-5'>My Todo List</h2>
        
-            <form className="d-flex" onSubmit={handleSubmit}>
+            <form className="container-2 d-flex" onSubmit={handleSubmit}>
                 <input className="form-control me-2"  placeholder="New Task" name='task'/>
                 <button className="btn btn-outline-light" type="submit">Add</button>
             </form>
